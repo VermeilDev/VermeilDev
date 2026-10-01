@@ -1,9 +1,9 @@
 <div align="center">
 
-# `VERMEIL DEV` // OPERATOR HUB
+# Vermeil
 
 <p align="center">
-  <strong>TACTILE · ZERO-TELEMETRY · MINECRAFT CLIENT SUITE</strong>
+  <strong>A modern, tactile, and privacy-focused Minecraft: Java Edition desktop ecosystem.</strong>
 </p>
 
 <p align="center">
@@ -17,22 +17,24 @@
 
 ---
 
-### 🛠️ Ecosystem Repositories & Toolchains
+### 🛠️ Ecosystem Repositories
 
-| Project | Role / Scope | Core Toolchains | Status / Repository |
-| :--- | :--- | :--- | :---: |
-| **Desktop Launcher** | High-performance Minecraft: Java Edition desktop client | Rust 2021 · Tauri 2 · SolidJS · Vite | [`Vermeil-Launcher`](https://github.com/VermeilDev/Vermeil-Launcher) |
-| **Companion Mod** | In-game client integration & custom cape renderer | Java 8/25 · Loom · ForgeGradle · Stonecutter | [`Vermeil-Companion`](https://github.com/VermeilDev/Vermeil-Companion) |
-| **Cloud Engine** | Sandboxed, zero-telemetry cross-device profile sync | RFC 7009 · DPAPI · POSIX 0600 · Google Drive | [`Zero-Telemetry`](https://vermeillauncher.app/privacy.html) |
-| **Edge Distribution** | Fast web portal, asset CDN & documentation | Cloudflare Workers · Static Pipeline · HSTS | [`vermeillauncher.app`](https://vermeillauncher.app/) |
+| Project | Description | Primary Toolchains | Repository |
+| :--- | :--- | :--- | :--- |
+| **Vermeil Launcher** | Desktop launcher with tactile design and zero telemetry | Tauri 2 · Rust · SolidJS · TypeScript | [`Vermeil-Launcher`](https://github.com/VermeilDev/Vermeil-Launcher) |
+| **Vermeil Companion** | Client companion mod for capes, cosmetics, and settings sync | Java (JDK 25 / JDK 8) · Stonecraft · Mixins | [`Vermeil-Companion`](https://github.com/VermeilDev/Vermeil-Companion) |
+| **Cloud Settings Roaming** | Zero-telemetry portable settings sync via Google Drive | RFC 7009 · DPAPI / POSIX 0600 · Sandboxed | [`Privacy Policy`](https://vermeillauncher.app/privacy.html) |
+| **Web Portal & Distribution** | Web landing page, static documentation, and updates | Cloudflare Workers & Pages | [`vermeillauncher.app`](https://vermeillauncher.app/) |
 
 ---
 
-### ⚡ Architectural Principles ("Ponytail" Mode)
+### ✨ Key Features & Design
 
-1. **The Ponytail Rule**: The best code is the code never written. Zero unrequested abstractions, zero-copy borrowed flows, and sub-millisecond local disk caching.
-2. **Tactile Mechanical Design**: Chunky 3D mechanical bevels, recessed sunken wells (`#0f0e13`), 3px left category accents, and zero decorative fluff.
-3. **Download-on-Demand Mod Lifecycle**: Launcher downloads verified companion jars via cryptographically verified `companion-manifest.json` on launch without bundling bloatware.
+* 🎛️ **Tactile Bento Design System**: Custom modern UI featuring modular Bento card grids, tactile switches, sunken recessed wells, and in-process Win32 shell icon synchronization.
+* 🛡️ **Zero Telemetry & Local-First**: Complete user privacy. No telemetry beacons, no analytics, no background tracking. Credentials and session tokens are encrypted at rest with hardware-backed DPAPI or POSIX permissions.
+* 🎴 **3D Character Studio & Custom Capes**: Built-in WebGL skin and cape designer supporting static and animated capes, baked directly into the companion mod without network overhead.
+* ⚡ **High-Performance Launch Pipeline**: Sub-millisecond loader profile caching, multi-threaded asset downloads with bounded concurrency, and offline launch support.
+* 🧩 **Download-on-Demand Companion Mod**: The client companion mod is never bundled into the launcher binary; verified jars are resolved cryptographically at launch via SHA-1 hashes.
 
 ---
 
@@ -41,8 +43,8 @@
 * 🌐 **Web Portal**: [vermeillauncher.app](https://vermeillauncher.app/)
 * 🖥️ **Launcher Repository**: [VermeilDev/Vermeil-Launcher](https://github.com/VermeilDev/Vermeil-Launcher)
 * 🧩 **Companion Mod Repository**: [VermeilDev/Vermeil-Companion](https://github.com/VermeilDev/Vermeil-Companion)
-* 🛡️ **Security Policy**: [Responsible Disclosures](https://github.com/VermeilDev/Vermeil-Launcher/security)
+* 🛡️ **Security Policy**: [Vermeil Security Policy](https://github.com/VermeilDev/Vermeil-Launcher/blob/main/SECURITY.md)
 
 <div align="center">
-  <sub>SYSTEM: VERMEIL OPERATOR ENVIRONMENT · INVARIANT: TACTILE PRECISION</sub>
+  <sub>VERMEIL ECOSYSTEM · FREE & OPEN SOURCE UNDER GNU GPLv3</sub>
 </div>
