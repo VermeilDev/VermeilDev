@@ -10,6 +10,7 @@
   <a href="https://vermeillauncher.app/"><img src="https://img.shields.io/badge/Website-vermeillauncher.app-2dd4ef?style=flat-square&logo=cloudflare&logoColor=white&labelColor=15141a" alt="Website" /></a>
   <a href="https://github.com/VermeilDev/Vermeil-Launcher"><img src="https://img.shields.io/badge/Launcher-Tauri%202%20%7C%20Rust-8b5cf6?style=flat-square&logo=tauri&logoColor=white&labelColor=15141a" alt="Launcher" /></a>
   <a href="https://github.com/VermeilDev/Vermeil-Companion"><img src="https://img.shields.io/badge/Companion-Minecraft%20Mod-ec4899?style=flat-square&logo=openjdk&logoColor=white&labelColor=15141a" alt="Companion" /></a>
+  <a href="https://github.com/VermeilDev/VermeilDev/blob/main/HISTORY.md"><img src="https://img.shields.io/badge/History-7%20Landmark%20Eras-f59e0b?style=flat-square&logo=git&logoColor=white&labelColor=15141a" alt="History" /></a>
   <a href="https://vermeillauncher.app/privacy.html"><img src="https://img.shields.io/badge/Telemetry-0%25%20Verified-10b981?style=flat-square&logo=gnuprivacyguard&logoColor=white&labelColor=15141a" alt="Privacy" /></a>
 </p>
 
@@ -51,6 +52,7 @@ Our codebase and engineering workflows are guided by the **"Ponytail" Lazy Senio
 
 ### 🚀 Quick Dispatch
 
+* 📜 **Evolution & UI History**: [Historical Milestones & UI Recordings (May 2026 – Present)](HISTORY.md)
 * 🌐 **Web Portal**: [vermeillauncher.app](https://vermeillauncher.app/)
 * 🖥️ **Launcher Repository**: [VermeilDev/Vermeil-Launcher](https://github.com/VermeilDev/Vermeil-Launcher)
 * 🧩 **Companion Mod Repository**: [VermeilDev/Vermeil-Companion](https://github.com/VermeilDev/Vermeil-Companion)
