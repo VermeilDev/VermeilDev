@@ -38,6 +38,17 @@
 
 ---
 
+### 💡 Engineering Philosophy ("Ponytail" Mode)
+
+Our codebase and engineering workflows are guided by the **"Ponytail" Lazy Senior Dev** decision ladder (adapted from [Dietrich Gebert](https://github.com/DietrichGebert/ponytail)):
+
+* **Efficiency Over Excess**: Lazy means efficient, not careless. The best code is the code never written.
+* **The Decision Ladder**: Stop at the first rung that holds — Does it need to be built at all? (YAGNI) $\to$ Does it already exist in the codebase? $\to$ Does the standard library do this? $\to$ Does a native platform feature cover it? $\to$ Does an installed dependency solve it? $\to$ Shortest working diff wins.
+* **Root Causes Over Symptoms**: Grep every caller; fix the shared root cause once rather than patching symptoms.
+* **Zero Unrequested Abstractions**: Deletion over addition. Boring over clever. Fewest files possible.
+
+---
+
 ### 🚀 Quick Dispatch
 
 * 🌐 **Web Portal**: [vermeillauncher.app](https://vermeillauncher.app/)
